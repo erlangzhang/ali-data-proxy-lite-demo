@@ -1,0 +1,389 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'F:\\WebStormWorkspace\\ali-data-mock-demo',
+6 verbose install   [ 'mockjs',
+6 verbose install     'ali-data-mock',
+6 verbose install     'iconv-lite',
+6 verbose install     'bufferhelper',
+6 verbose install     'mocha',
+6 verbose install     'jscoverage',
+6 verbose install     'express' ] ]
+7 info preinstall midway-modelproxy@0.1.7
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'mockjs@0.1.1', null ]
+10 verbose cache add name=undefined spec="mockjs@0.1.1" args=["mockjs@0.1.1",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'mockjs@0.1.1',
+11 verbose parsed url   path: 'mockjs@0.1.1',
+11 verbose parsed url   href: 'mockjs@0.1.1' }
+12 verbose cache add [ 'ali-data-mock@1.1.7', null ]
+13 verbose cache add name=undefined spec="ali-data-mock@1.1.7" args=["ali-data-mock@1.1.7",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'ali-data-mock@1.1.7',
+14 verbose parsed url   path: 'ali-data-mock@1.1.7',
+14 verbose parsed url   href: 'ali-data-mock@1.1.7' }
+15 verbose cache add [ 'iconv-lite@0.2.11', null ]
+16 verbose cache add name=undefined spec="iconv-lite@0.2.11" args=["iconv-lite@0.2.11",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'iconv-lite@0.2.11',
+17 verbose parsed url   path: 'iconv-lite@0.2.11',
+17 verbose parsed url   href: 'iconv-lite@0.2.11' }
+18 verbose cache add [ 'bufferhelper@0.2.0', null ]
+19 verbose cache add name=undefined spec="bufferhelper@0.2.0" args=["bufferhelper@0.2.0",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'bufferhelper@0.2.0',
+20 verbose parsed url   path: 'bufferhelper@0.2.0',
+20 verbose parsed url   href: 'bufferhelper@0.2.0' }
+21 verbose cache add [ 'mocha@1.17.1', null ]
+22 verbose cache add name=undefined spec="mocha@1.17.1" args=["mocha@1.17.1",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'mocha@1.17.1',
+23 verbose parsed url   path: 'mocha@1.17.1',
+23 verbose parsed url   href: 'mocha@1.17.1' }
+24 verbose cache add [ 'jscoverage@0.3.8', null ]
+25 verbose cache add name=undefined spec="jscoverage@0.3.8" args=["jscoverage@0.3.8",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'jscoverage@0.3.8',
+26 verbose parsed url   path: 'jscoverage@0.3.8',
+26 verbose parsed url   href: 'jscoverage@0.3.8' }
+27 verbose cache add [ 'express@3.4.8', null ]
+28 verbose cache add name=undefined spec="express@3.4.8" args=["express@3.4.8",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'express@3.4.8',
+29 verbose parsed url   path: 'express@3.4.8',
+29 verbose parsed url   href: 'express@3.4.8' }
+30 verbose cache add name="mockjs" spec="0.1.1" args=["mockjs","0.1.1"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '0.1.1',
+31 verbose parsed url   path: '0.1.1',
+31 verbose parsed url   href: '0.1.1' }
+32 verbose addNamed [ 'mockjs', '0.1.1' ]
+33 verbose addNamed [ '0.1.1', '0.1.1' ]
+34 verbose cache add name="ali-data-mock" spec="1.1.7" args=["ali-data-mock","1.1.7"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '1.1.7',
+35 verbose parsed url   path: '1.1.7',
+35 verbose parsed url   href: '1.1.7' }
+36 verbose addNamed [ 'ali-data-mock', '1.1.7' ]
+37 verbose addNamed [ '1.1.7', '1.1.7' ]
+38 verbose cache add name="iconv-lite" spec="0.2.11" args=["iconv-lite","0.2.11"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '0.2.11',
+39 verbose parsed url   path: '0.2.11',
+39 verbose parsed url   href: '0.2.11' }
+40 verbose addNamed [ 'iconv-lite', '0.2.11' ]
+41 verbose addNamed [ '0.2.11', '0.2.11' ]
+42 verbose cache add name="bufferhelper" spec="0.2.0" args=["bufferhelper","0.2.0"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '0.2.0',
+43 verbose parsed url   path: '0.2.0',
+43 verbose parsed url   href: '0.2.0' }
+44 verbose addNamed [ 'bufferhelper', '0.2.0' ]
+45 verbose addNamed [ '0.2.0', '0.2.0' ]
+46 verbose cache add name="mocha" spec="1.17.1" args=["mocha","1.17.1"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '1.17.1',
+47 verbose parsed url   path: '1.17.1',
+47 verbose parsed url   href: '1.17.1' }
+48 verbose addNamed [ 'mocha', '1.17.1' ]
+49 verbose addNamed [ '1.17.1', '1.17.1' ]
+50 verbose cache add name="jscoverage" spec="0.3.8" args=["jscoverage","0.3.8"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '0.3.8',
+51 verbose parsed url   path: '0.3.8',
+51 verbose parsed url   href: '0.3.8' }
+52 verbose addNamed [ 'jscoverage', '0.3.8' ]
+53 verbose addNamed [ '0.3.8', '0.3.8' ]
+54 verbose cache add name="express" spec="3.4.8" args=["express","3.4.8"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '3.4.8',
+55 verbose parsed url   path: '3.4.8',
+55 verbose parsed url   href: '3.4.8' }
+56 verbose addNamed [ 'express', '3.4.8' ]
+57 verbose addNamed [ '3.4.8', '3.4.8' ]
+58 silly lockFile e6b532b3-mockjs-0-1-1 mockjs@0.1.1
+59 verbose lock mockjs@0.1.1 C:\Users\liwei_000\AppData\Roaming\npm-cache\e6b532b3-mockjs-0-1-1.lock
+60 silly lockFile d182ff76-ali-data-mock-1-1-7 ali-data-mock@1.1.7
+61 verbose lock ali-data-mock@1.1.7 C:\Users\liwei_000\AppData\Roaming\npm-cache\d182ff76-ali-data-mock-1-1-7.lock
+62 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+63 verbose lock iconv-lite@0.2.11 C:\Users\liwei_000\AppData\Roaming\npm-cache\5d877021-iconv-lite-0-2-11.lock
+64 silly lockFile 07387f97-bufferhelper-0-2-0 bufferhelper@0.2.0
+65 verbose lock bufferhelper@0.2.0 C:\Users\liwei_000\AppData\Roaming\npm-cache\07387f97-bufferhelper-0-2-0.lock
+66 silly lockFile ead4044b-mocha-1-17-1 mocha@1.17.1
+67 verbose lock mocha@1.17.1 C:\Users\liwei_000\AppData\Roaming\npm-cache\ead4044b-mocha-1-17-1.lock
+68 silly lockFile 069b400e-jscoverage-0-3-8 jscoverage@0.3.8
+69 verbose lock jscoverage@0.3.8 C:\Users\liwei_000\AppData\Roaming\npm-cache\069b400e-jscoverage-0-3-8.lock
+70 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+71 verbose lock express@3.4.8 C:\Users\liwei_000\AppData\Roaming\npm-cache\15cb8528-express-3-4-8.lock
+72 verbose request where is /ali-data-mock
+73 verbose request registry http://registry.cnpmjs.org/
+74 verbose request id 0c997091541e428a
+75 verbose url raw /ali-data-mock
+76 verbose url resolving [ 'http://registry.cnpmjs.org/', './ali-data-mock' ]
+77 verbose url resolved http://registry.cnpmjs.org/ali-data-mock
+78 verbose request where is http://registry.cnpmjs.org/ali-data-mock
+79 info trying registry request attempt 1 at 15:41:56
+80 verbose etag "1404387160000"
+81 http GET http://registry.cnpmjs.org/ali-data-mock
+82 verbose request where is /bufferhelper
+83 verbose request registry http://registry.cnpmjs.org/
+84 verbose url raw /bufferhelper
+85 verbose url resolving [ 'http://registry.cnpmjs.org/', './bufferhelper' ]
+86 verbose url resolved http://registry.cnpmjs.org/bufferhelper
+87 verbose request where is http://registry.cnpmjs.org/bufferhelper
+88 info trying registry request attempt 1 at 15:41:56
+89 verbose etag "1387195152000"
+90 http GET http://registry.cnpmjs.org/bufferhelper
+91 verbose request where is /mockjs
+92 verbose request registry http://registry.cnpmjs.org/
+93 verbose url raw /mockjs
+94 verbose url resolving [ 'http://registry.cnpmjs.org/', './mockjs' ]
+95 verbose url resolved http://registry.cnpmjs.org/mockjs
+96 verbose request where is http://registry.cnpmjs.org/mockjs
+97 info trying registry request attempt 1 at 15:41:56
+98 verbose etag "1403023963000"
+99 http GET http://registry.cnpmjs.org/mockjs
+100 verbose request where is /mocha
+101 verbose request registry http://registry.cnpmjs.org/
+102 verbose url raw /mocha
+103 verbose url resolving [ 'http://registry.cnpmjs.org/', './mocha' ]
+104 verbose url resolved http://registry.cnpmjs.org/mocha
+105 verbose request where is http://registry.cnpmjs.org/mocha
+106 info trying registry request attempt 1 at 15:41:56
+107 verbose etag "1414046241000"
+108 http GET http://registry.cnpmjs.org/mocha
+109 verbose request where is /jscoverage
+110 verbose request registry http://registry.cnpmjs.org/
+111 verbose url raw /jscoverage
+112 verbose url resolving [ 'http://registry.cnpmjs.org/', './jscoverage' ]
+113 verbose url resolved http://registry.cnpmjs.org/jscoverage
+114 verbose request where is http://registry.cnpmjs.org/jscoverage
+115 info trying registry request attempt 1 at 15:41:56
+116 verbose etag "1414849415000"
+117 http GET http://registry.cnpmjs.org/jscoverage
+118 verbose request where is /iconv-lite
+119 verbose request registry http://registry.cnpmjs.org/
+120 verbose url raw /iconv-lite
+121 verbose url resolving [ 'http://registry.cnpmjs.org/', './iconv-lite' ]
+122 verbose url resolved http://registry.cnpmjs.org/iconv-lite
+123 verbose request where is http://registry.cnpmjs.org/iconv-lite
+124 info trying registry request attempt 1 at 15:41:56
+125 verbose etag "1416480246000"
+126 http GET http://registry.cnpmjs.org/iconv-lite
+127 verbose request where is /express
+128 verbose request registry http://registry.cnpmjs.org/
+129 verbose url raw /express
+130 verbose url resolving [ 'http://registry.cnpmjs.org/', './express' ]
+131 verbose url resolved http://registry.cnpmjs.org/express
+132 verbose request where is http://registry.cnpmjs.org/express
+133 info trying registry request attempt 1 at 15:41:56
+134 verbose etag "1416893045000"
+135 http GET http://registry.cnpmjs.org/express
+136 http 304 http://registry.cnpmjs.org/mockjs
+137 silly registry.get cb [ 304,
+137 silly registry.get   { server: 'nginx/1.6.2',
+137 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:57 GMT',
+137 silly registry.get     connection: 'keep-alive',
+137 silly registry.get     'x-powered-by': 'koa',
+137 silly registry.get     etag: '"1403023963000"',
+137 silly registry.get     'x-readtime': '57' } ]
+138 verbose etag http://registry.cnpmjs.org/mockjs from cache
+139 silly lockFile e6b532b3-mockjs-0-1-1 mockjs@0.1.1
+140 silly lockFile e6b532b3-mockjs-0-1-1 mockjs@0.1.1
+141 http 304 http://registry.cnpmjs.org/mocha
+142 silly registry.get cb [ 304,
+142 silly registry.get   { server: 'nginx/1.6.2',
+142 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:57 GMT',
+142 silly registry.get     connection: 'keep-alive',
+142 silly registry.get     'x-powered-by': 'koa',
+142 silly registry.get     etag: '"1414046241000"',
+142 silly registry.get     'x-readtime': '57' } ]
+143 verbose etag http://registry.cnpmjs.org/mocha from cache
+144 http 304 http://registry.cnpmjs.org/ali-data-mock
+145 silly registry.get cb [ 304,
+145 silly registry.get   { server: 'nginx/1.6.2',
+145 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:57 GMT',
+145 silly registry.get     connection: 'keep-alive',
+145 silly registry.get     'x-powered-by': 'koa',
+145 silly registry.get     etag: '"1404387160000"',
+145 silly registry.get     'x-readtime': '58' } ]
+146 verbose etag http://registry.cnpmjs.org/ali-data-mock from cache
+147 http 304 http://registry.cnpmjs.org/bufferhelper
+148 silly registry.get cb [ 304,
+148 silly registry.get   { server: 'nginx/1.6.2',
+148 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:57 GMT',
+148 silly registry.get     connection: 'keep-alive',
+148 silly registry.get     'x-powered-by': 'koa',
+148 silly registry.get     etag: '"1387195152000"',
+148 silly registry.get     'x-readtime': '59' } ]
+149 verbose etag http://registry.cnpmjs.org/bufferhelper from cache
+150 http 304 http://registry.cnpmjs.org/jscoverage
+151 silly registry.get cb [ 304,
+151 silly registry.get   { server: 'nginx/1.6.2',
+151 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:57 GMT',
+151 silly registry.get     connection: 'keep-alive',
+151 silly registry.get     'x-powered-by': 'koa',
+151 silly registry.get     etag: '"1414849415000"',
+151 silly registry.get     'x-readtime': '58' } ]
+152 verbose etag http://registry.cnpmjs.org/jscoverage from cache
+153 silly lockFile d182ff76-ali-data-mock-1-1-7 ali-data-mock@1.1.7
+154 silly lockFile d182ff76-ali-data-mock-1-1-7 ali-data-mock@1.1.7
+155 silly lockFile 07387f97-bufferhelper-0-2-0 bufferhelper@0.2.0
+156 silly lockFile 07387f97-bufferhelper-0-2-0 bufferhelper@0.2.0
+157 silly lockFile ead4044b-mocha-1-17-1 mocha@1.17.1
+158 silly lockFile ead4044b-mocha-1-17-1 mocha@1.17.1
+159 silly lockFile 069b400e-jscoverage-0-3-8 jscoverage@0.3.8
+160 silly lockFile 069b400e-jscoverage-0-3-8 jscoverage@0.3.8
+161 http 304 http://registry.cnpmjs.org/iconv-lite
+162 silly registry.get cb [ 304,
+162 silly registry.get   { server: 'nginx/1.6.2',
+162 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:58 GMT',
+162 silly registry.get     connection: 'keep-alive',
+162 silly registry.get     'x-powered-by': 'koa',
+162 silly registry.get     etag: '"1416480246000"',
+162 silly registry.get     'x-readtime': '58' } ]
+163 verbose etag http://registry.cnpmjs.org/iconv-lite from cache
+164 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+165 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+166 http 304 http://registry.cnpmjs.org/express
+167 silly registry.get cb [ 304,
+167 silly registry.get   { server: 'nginx/1.6.2',
+167 silly registry.get     date: 'Fri, 05 Dec 2014 07:41:58 GMT',
+167 silly registry.get     connection: 'keep-alive',
+167 silly registry.get     'x-powered-by': 'koa',
+167 silly registry.get     etag: '"1416893045000"',
+167 silly registry.get     'x-readtime': '57' } ]
+168 verbose etag http://registry.cnpmjs.org/express from cache
+169 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+170 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+171 error Error: version not found: ali-data-mock@1.1.7
+171 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+171 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+171 error     at Object.oncomplete (fs.js:107:15)
+172 error If you need help, you may report this *entire* log,
+172 error including the npm and node versions, at:
+172 error     <http://github.com/npm/npm/issues>
+173 error System Windows_NT 6.2.9200
+174 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+175 error cwd F:\WebStormWorkspace\ali-data-mock-demo
+176 error node -v v0.10.33
+177 error npm -v 1.4.28
+178 verbose exit [ 1, true ]
