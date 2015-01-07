@@ -15,20 +15,24 @@
     KISSY.use( "modelproxy, node", function( S, ModelProxy, Node ) {
         ModelProxy.configBase( '/model/' );
         var searchModel = ModelProxy.create( 'Search.*' );
-        searchModel
-            .list( { q: 'ihpone6' } )
-            .list( { q: '冲锋衣' } )
-            .suggest( { q: 'i' } )
-            .getNav( { q: '滑板' } )
-            .done( function( data1, data2, data3, data4 ) {
-                console.log( '这是由前端合并请求的结果:');
-                console.log( {
-                    "list_ihpone6": data1,
-                    "list_冲锋衣": data2,
-                    "suggest_i": data3,
-                    "getNav_滑板": data4
-                } );
-            } );
+        var sModel = ModelProxy.create( 'Account.*' );
+        sModel.update({id:1,name:"t"}).done(function(data){
+            console.log(data);
+        })
+//        searchModel
+//            .list( { q: 'ihpone6' } )
+//            .list( { q: '冲锋衣' } )
+//            .suggest( { q: 'i' } )
+//            .getNav( { q: '滑板' } )
+//            .done( function( data1, data2, data3, data4 ) {
+//                console.log( '这是由前端合并请求的结果:');
+//                console.log( {
+//                    "list_ihpone6": data1,
+//                    "list_冲锋衣": data2,
+//                    "suggest_i": data3,
+//                    "getNav_滑板": data4
+//                } );
+//            } );
 
         // For post demo
         var $btn = Node.all( '#postBtn' );

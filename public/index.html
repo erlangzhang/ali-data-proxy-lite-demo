@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ali-data-proxy-lite demo</title>
+
+    <link rel="stylesheet" href="lib/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.2.0/css/bootstrap.min.css">
+    <!--<script src="lib/bootstrap-3.2.0/ZeroClipboard.min.js"></script>-->
+
+
+</head>
+<body ng-controller="MainCtrl">
+
+
+<!--[if lte IE 7]>
+<div class="ui-tips ui-tips-warning ie-update">
+    你正在使用IE低级浏览器，为了您的账号安全和更好的产品体验，<br/>强烈建议您立即 <a
+        href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a
+        href="https://www.google.com/intl/zh-CN/chrome/browser/?hl=zh-CN" target="_blank">谷歌浏览器Chrome</a> 。
+</div>
+<![endif]-->
+
+<!--头部和导航 start-->
+<!--<div ng-include="'app/views/includes/header.html'"></div>-->
+<!--<div ng-include="'views/includes/sidebar.html'" ></div>-->
+<!--end 头部和导航-->
+<div class="webapp-content">
+    <div class="webapp-con-fluid">
+        <div ui-view></div>
+        <!--<div ng-include="'views/user/register.html'"></div>-->
+    </div>
+
+</div>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+
+<script src="lib/angular-1.3.0.14/angular.js"></script>
+<script src="lib/angular-ui-router.js"></script>
+<script src="lib/ng-proxy.js"></script>
+
+<script src="app/js/services/services.js"></script>
+<script src="app/js/controllers/MainControllers.js"></script>
+<script src="app/js/app.js"></script>
+</body>
+</html>

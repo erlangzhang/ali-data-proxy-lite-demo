@@ -12,9 +12,17 @@
   "dependencies": {
     "mockjs": "0.1.1",
     "ali-data-mock": "0.1.3",
-    "ali-data-proxy": "1.1.7",
+    "ali-data-proxy-lite": "1.1.10",
     "iconv-lite": "0.2.11",
-    "bufferhelper": "0.2.0"
+    "bufferhelper": "0.2.0",
+    "serve-favicon":"*",
+    "debug": "*",
+    "cookie-parser":"*",
+    "express-session":"*",
+    "body-parser":"*",
+    "less-middleware":"*",
+    "morgan": "*"
+
   },
   "devDependencies": {
     "mocha": "1.17.1",
