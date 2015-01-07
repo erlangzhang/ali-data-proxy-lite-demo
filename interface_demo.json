@@ -37,7 +37,31 @@
         },
         "method": "post",
         "dataType": "text"
-    } ],
+    } ,{
+        "name": "44444",
+        "id": "Account.update",
+        "urls": {
+            "online": "http://localhost:8881/services/accounts/:id"
+        },
+        "method":"put",
+        "bypass":true
+    },{
+        "name": "34",
+        "id": "Account.app",
+        "urls": {
+            "online": "http://localhost:8888/api/v1/user/:userId/app"
+        },
+        "method":"post",
+        "bypass":true
+    },{
+        "name": "3",
+        "id": "message.add",
+        "urls": {
+            "online": "http://10.3.30.17:8888/api/v1/message/:apiKey-:username"
+        },
+        "method":"post",
+        "contentType":"application/json"
+    }],
     "combo": {
         "getMyData": [ "Cart.getCart", "Search.suggest" ]
     }

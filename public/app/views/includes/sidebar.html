@@ -1,0 +1,18 @@
+<div class="webapp-left">
+    <div class="well sidebar webapp-sidebar">
+        <ul class="nav  nav-stacked" id="appCenter">
+            <li class="nav-tabs active"><a ui-sref="app">我的应用</a></li>
+            <li class="nav-tabs "><a ui-sref="services">我的服务</a></li>
+            <li class="nav-tabs"><a ui-sref="basicInfo">基本资料</a></li>
+            <li class="nav-tabs "><a ui-sref="safeInfo">安全信息</a></li>
+        </ul>
+<!--        <ul class="nav  nav-stacked" id="userCenter" style="display: none;">
+
+        </ul>-->
+    </div>
+</div>
+<script>
+    $('#appCenter  li a').click(function(){
+        $(this).parent().addClass('active').siblings().removeClass('active');
+    })
+</script>
